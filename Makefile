@@ -1,4 +1,4 @@
-SUBMAKES = asm c c++ java javascript lua python rust scratch
+SUBMAKES = asm c c++ java javascript lua make python rust scratch
 .PHONY: all clean phony_bypass
 
 all: $(addsuffix .make, $(SUBMAKES))
