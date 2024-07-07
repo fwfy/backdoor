@@ -1,4 +1,4 @@
-SUBMAKES = i386
+SUBMAKES = scratch3
 .PHONY: all clean phony_bypass
 
 all: $(addsuffix .make, $(SUBMAKES))
