@@ -1,2 +1,11 @@
-plugins{id('application')}
-jar{manifest{attributes('Main-Class':'Backdoor')}}
+plugins {
+    id 'application'
+}
+
+jar {
+    manifest {
+        attributes('Main-Class':'Backdoor')
+    }
+
+    archiveBaseName = 'backdoor-java-gradle'
+}
